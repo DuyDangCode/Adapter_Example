@@ -6,7 +6,7 @@ public class Main {
         IGame a = g1.createGame();
         a.play();
 
-//        IGame b = g2.createGame();
-//        b.play();
+        IGame b = g2.createGame();
+        b.play();
     }
 }
