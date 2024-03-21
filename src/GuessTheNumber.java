@@ -18,10 +18,6 @@ public class GuessTheNumber {
 
         // Generate the numbers
 
-
-
-
-
         System.out.println(
                 "Guess the number:");
         guess = sc.nextInt();

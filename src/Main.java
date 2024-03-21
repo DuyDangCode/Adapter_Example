@@ -3,7 +3,8 @@ public class Main {
 //        IGame a = new RockPaperScissors();
 //        a.play();
 
-        IGame b = new GuessTheNumberAdapter();
+        GuessTheNumber gn = new GuessTheNumber();
+        IGame b = new GuessTheNumberAdapter(5, gn);
         b.play();
     }
 }
