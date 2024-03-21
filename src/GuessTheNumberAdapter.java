@@ -2,9 +2,14 @@ public class GuessTheNumberAdapter implements IGame {
     GuessTheNumber gn; //adaptee
     int k, i;
 
-    public GuessTheNumberAdapter(int k) {
+    public GuessTheNumberAdapter() {
+        this.k = 5;
+        this.gn = new GuessTheNumber();
+    }
+
+    public GuessTheNumberAdapter(int k, GuessTheNumber gn) {
         this.k = k;
-        gn = new GuessTheNumber();
+        this.gn = gn;
     }
 
     @Override
